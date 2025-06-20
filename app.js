@@ -30,7 +30,6 @@ elements.sendMessage.addEventListener("submit", (e) => {
       getMessage();
     });
   elements.inputUserMessage.value = ""
-  elements.inputUserName.value = ""
 });
 
 function getMessage() {
