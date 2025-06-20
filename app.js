@@ -47,7 +47,7 @@ function getMessage() {
             `
                   <div class="message">
             <strong><p id="userName">${data[key].username}</p></strong>
-            <span>${hourSent.getHours()}:${hourSent.getMinutes()}</span>
+            <span>${String(hourSent.getHours()).padStart(2, '0')}:${String(hourSent.getMinutes()).padStart(2, '0')}</span>
             <p id="userMessage">
              ${data[key].message}
             </p>
